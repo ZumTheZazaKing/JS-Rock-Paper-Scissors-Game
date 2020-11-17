@@ -1,0 +1,93 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width:100vw;
+    height: 100vh;
+    background-color: #21f2e4;
+}
+
+#container{
+    border:2px solid black;
+    padding:15px 25px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px 5px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2#info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3#message{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.action{
+    border:none;
+    outline:none;
+    width:120px;
+    height:60px;
+    margin: auto 20px;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+
+.action:hover{
+    border: 5px solid black;
+    transition: 0.1s ease-in-out;
+}
+
+#rock{
+    background-color:#f24545;
+}
+
+#paper{
+    background-color: #45f262;
+}
+
+#scissors{
+    background-color: #f29345;
+}
+
+h3#process{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2#win, h2#lose, h2#draw{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button#restart{
+    border:none;
+    outline:none;
+    width:120px;
+    height:60px;
+    margin: auto 40px;
+    font-size: 20px;
+    border-radius: 100px;
+    margin-bottom: 30px;
+}
+
+button#restart:hover{
+    border: 5px solid black;
+    transition: 0.1s ease-in-out;
+}
+
+.hide{
+    display: none;
+}
+
+#thechoice{
+    font-family: Arial, Helvetica, sans-serif;
+}

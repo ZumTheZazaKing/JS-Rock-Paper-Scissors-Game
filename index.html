@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Paper, Scissors, Rock!</title>
+</head>
+<body>
+
+    <div id="container">
+        <h1>Paper, Scissors, Rock Game</h1>
+        <h2 id="info">Let's see if you can outplay the computer!</h2>
+        <h3 id="message">Choose your form of attack:</h3>
+        <button id="rock" class="action" onclick="rockChoice()">Rock</button>
+        <button id="paper" class="action" onclick="paperChoice()">Paper</button>
+        <button id="scissors" class="action" onclick="scissorsChoice()">Scissors</button>
+        <h3 id="process" class="hide">Processing the Winner...</h3>
+        <h3 id="thechoice" class="hide"></h3>
+        <h2 id="win" class="hide">Congratulations! You won!</h2>
+        <h2 id="lose" class="hide">Unfortunately, you lost.</h2>
+        <h2 id="draw" class="hide">A draw! That was unexpected!</h2>
+        <button id="restart" class="hide" onclick="restart()">Play again</button>
+    </div>
+    
+</body>
+</html>
